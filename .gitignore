@@ -16,9 +16,3 @@ node_modules/
 
 # Ignorar los archivos de migraciones locales si no los quieres subir
 pb_migrations/*.sql
-
-.git
-.gitignore
-README.md
-Dockerfile
-
