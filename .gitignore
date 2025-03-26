@@ -1,0 +1,21 @@
+# Ignorar el ejecutable de PocketBase
+pocketbase.exe
+
+# Ignorar archivos temporales de la base de datos
+pb_data/tmp/
+pb_data/*.log
+
+# Ignorar archivos de caché y configuraciones locales
+*.log
+*.sqlite
+*.db
+*.bak
+node_modules/
+.idea/
+.vscode/
+
+# Ignorar el archivo .env (si tienes configuraciones sensibles)
+.env
+
+# Ignorar los archivos de migraciones locales si no los quieres subir
+pb_migrations/*.sql
