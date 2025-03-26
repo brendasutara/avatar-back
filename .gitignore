@@ -1,6 +1,7 @@
 # Ignorar archivos temporales de la base de datos
 pb_data/tmp/
 pb_data/*.log
+pocketbase.exe
 
 # Ignorar archivos de caché y configuraciones locales
 *.log
